@@ -3,6 +3,8 @@
     div.nav(id="nav")
       router-link(to="/home") Home
       span |
+      router-link(to="/colors") Colors
+      span |
       router-link(to="/demo") Demo
       span |
       
