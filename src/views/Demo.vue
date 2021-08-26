@@ -38,7 +38,9 @@
   
   function getRefreshToken () {
     let cookies = document.cookie.match('(^|;)\\s*auth0token\\s*=\\s*([^;]+)');
-    return cookies ? cookies.pop() : '';
+    let result = cookies ? cookies.pop() : '';
+    if (result.length === 0) result = '[only visible if the API index.js session_options.cookie.httpOnly === false]'
+    return result
   }
 
   let module =
