@@ -1,0 +1,63 @@
+/* 
+  Color Ideas:
+  https://coolors.co/palettes/trending
+  https://paletton.com/#uid=53o0u0ktaGKi0NXnCJHEHzfEjp6 
+*/
+:root {
+  --background-lightness: 10%;
+  --foreground-lightness: 100%;
+  --subtle-lightness-direction: -10%;
+  
+  --color-primary-h: 40;
+  --color-primary-s: 74%;
+  --color-primary-l: 52%;
+  
+  --color-interactive-h: 198;
+  --color-interactive-s: 61%;
+  --color-interactive-l: 60%;
+
+  --color-bad: hsl(359, 94%, 62%);
+  --color-good: hsl(94, 38%, 59%);
+  --color-warn: hsl(42, 93%, 64%);
+
+
+
+  --color-background: hsl(0, 0%, var(--background-lightness));
+  --color-foreground: hsl(0, 0%, var(--foreground-lightness));
+
+  --color-primary: hsl(
+    var(--color-primary-h), 
+    var(--color-primary-s), 
+    var(--color-primary-l)
+  );
+  
+  --color-primary-subtle: hsl(
+    var(--color-primary-h), 
+    var(--color-primary-s), 
+    calc(var(--color-primary-l) - var(--subtle-lightness-direction))
+  );
+  
+  --color-primary-x-subtle: hsl(
+    var(--color-primary-h), 
+    var(--color-primary-s), 
+    calc(var(--color-primary-l) - (var(--subtle-lightness-direction) * 2))
+  );
+  
+  --color-interactive: hsl(
+    var(--color-interactive-h), 
+    var(--color-interactive-s), 
+    var(--color-interactive-l)
+  );
+  
+  --color-interactive-subtle: hsl(
+    var(--color-interactive-h), 
+    var(--color-interactive-s), 
+    calc(var(--color-interactive-l) - var(--subtle-lightness-direction))
+  );
+  
+  --color-interactive-x-subtle: hsl(
+    var(--color-interactive-h), 
+    var(--color-interactive-s), 
+    calc(var(--color-interactive-l) - (var(--subtle-lightness-direction) * 2))
+  );
+}

@@ -1,0 +1,1018 @@
+/* screen width 300 and below */
+html {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+
+
+/* Assuming a min screen width of 250px */
+
+:root {
+  --screen-multiplier: 1;
+  --screen-multiplier-floor: 1;
+}
+
+@media only screen and (min-width: 300px) {
+  :root {
+    --screen-multiplier: calc(300/250);
+  }
+}
+
+@media only screen and (min-width: 325px) {
+  :root {
+    --screen-multiplier: calc(325/250);
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  :root {
+    --screen-multiplier: calc(350/250);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  :root {
+    --screen-multiplier: calc(375/250);
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  :root {
+    --screen-multiplier: calc(400/250);
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  :root {
+    --screen-multiplier: calc(425/250);
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  :root {
+    --screen-multiplier: calc(450/250);
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  :root {
+    --screen-multiplier: calc(475/250);
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  :root {
+    --screen-multiplier: calc(500/250);
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  :root {
+    --screen-multiplier: calc(525/250);
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  :root {
+    --screen-multiplier: calc(550/250);
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  :root {
+    --screen-multiplier: calc(575/250);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --screen-multiplier: calc(600/250);
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  :root {
+    --screen-multiplier: calc(625/250);
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  :root {
+    --screen-multiplier: calc(650/250);
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  :root {
+    --screen-multiplier: calc(675/250);
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  :root {
+    --screen-multiplier: calc(700/250);
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  :root {
+    --screen-multiplier: calc(725/250);
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  :root {
+    --screen-multiplier: calc(750/250);
+  }
+}
+
+@media only screen and (min-width: 775px) {
+  :root {
+    --screen-multiplier: calc(775/250);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  :root {
+    --screen-multiplier: calc(800/250);
+  }
+}
+
+@media only screen and (min-width: 825px) {
+  :root {
+    --screen-multiplier: calc(825/250);
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  :root {
+    --screen-multiplier: calc(850/250);
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  :root {
+    --screen-multiplier: calc(875/250);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  :root {
+    --screen-multiplier: calc(900/250);
+  }
+}
+
+@media only screen and (min-width: 925px) {
+  :root {
+    --screen-multiplier: calc(925/250);
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  :root {
+    --screen-multiplier: calc(950/250);
+  }
+}
+
+@media only screen and (min-width: 975px) {
+  :root {
+    --screen-multiplier: calc(975/250);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  :root {
+    --screen-multiplier: calc(1000/250);
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  :root {
+    --screen-multiplier: calc(1025/250);
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  :root {
+    --screen-multiplier: calc(1050/250);
+  }
+}
+
+@media only screen and (min-width: 1075px) {
+  :root {
+    --screen-multiplier: calc(1075/250);
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  :root {
+    --screen-multiplier: calc(1100/250);
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  :root {
+    --screen-multiplier: calc(1125/250);
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  :root {
+    --screen-multiplier: calc(1150/250);
+  }
+}
+
+@media only screen and (min-width: 1175px) {
+  :root {
+    --screen-multiplier: calc(1175/250);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  :root {
+    --screen-multiplier: calc(1200/250);
+  }
+}
+
+@media only screen and (min-width: 1225px) {
+  :root {
+    --screen-multiplier: calc(1225/250);
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  :root {
+    --screen-multiplier: calc(1250/250);
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  :root {
+    --screen-multiplier: calc(1275/250);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  :root {
+    --screen-multiplier: calc(1300/250);
+  }
+}
+
+@media only screen and (min-width: 1325px) {
+  :root {
+    --screen-multiplier: calc(1325/250);
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  :root {
+    --screen-multiplier: calc(1350/250);
+  }
+}
+
+@media only screen and (min-width: 1375px) {
+  :root {
+    --screen-multiplier: calc(1375/250);
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  :root {
+    --screen-multiplier: calc(1400/250);
+  }
+}
+
+@media only screen and (min-width: 1425px) {
+  :root {
+    --screen-multiplier: calc(1425/250);
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  :root {
+    --screen-multiplier: calc(1450/250);
+  }
+}
+
+@media only screen and (min-width: 1475px) {
+  :root {
+    --screen-multiplier: calc(1475/250);
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  :root {
+    --screen-multiplier: calc(1500/250);
+  }
+}
+
+@media only screen and (min-width: 1525px) {
+  :root {
+    --screen-multiplier: calc(1525/250);
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  :root {
+    --screen-multiplier: calc(1550/250);
+  }
+}
+
+@media only screen and (min-width: 1575px) {
+  :root {
+    --screen-multiplier: calc(1575/250);
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  :root {
+    --screen-multiplier: calc(1600/250);
+  }
+}
+
+@media only screen and (min-width: 1625px) {
+  :root {
+    --screen-multiplier: calc(1625/250);
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  :root {
+    --screen-multiplier: calc(1650/250);
+  }
+}
+
+@media only screen and (min-width: 1675px) {
+  :root {
+    --screen-multiplier: calc(1675/250);
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  :root {
+    --screen-multiplier: calc(1700/250);
+  }
+}
+
+@media only screen and (min-width: 1725px) {
+  :root {
+    --screen-multiplier: calc(1725/250);
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  :root {
+    --screen-multiplier: calc(1750/250);
+  }
+}
+
+@media only screen and (min-width: 1775px) {
+  :root {
+    --screen-multiplier: calc(1775/250);
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  :root {
+    --screen-multiplier: calc(1800/250);
+  }
+}
+
+@media only screen and (min-width: 1825px) {
+  :root {
+    --screen-multiplier: calc(1825/250);
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  :root {
+    --screen-multiplier: calc(1850/250);
+  }
+}
+
+@media only screen and (min-width: 1875px) {
+  :root {
+    --screen-multiplier: calc(1875/250);
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  :root {
+    --screen-multiplier: calc(1900/250);
+  }
+}
+
+@media only screen and (min-width: 1925px) {
+  :root {
+    --screen-multiplier: calc(1925/250);
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  :root {
+    --screen-multiplier: calc(1950/250);
+  }
+}
+
+@media only screen and (min-width: 1975px) {
+  :root {
+    --screen-multiplier: calc(1975/250);
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  :root {
+    --screen-multiplier: calc(2000/250);
+  }
+}
+
+@media only screen and (min-width: 2025px) {
+  :root {
+    --screen-multiplier: calc(2025/250);
+  }
+}
+
+@media only screen and (min-width: 2050px) {
+  :root {
+    --screen-multiplier: calc(2050/250);
+  }
+}
+
+@media only screen and (min-width: 2075px) {
+  :root {
+    --screen-multiplier: calc(2075/250);
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  :root {
+    --screen-multiplier: calc(2100/250);
+  }
+}
+
+@media only screen and (min-width: 2125px) {
+  :root {
+    --screen-multiplier: calc(2125/250);
+  }
+}
+
+@media only screen and (min-width: 2150px) {
+  :root {
+    --screen-multiplier: calc(2150/250);
+  }
+}
+
+@media only screen and (min-width: 2175px) {
+  :root {
+    --screen-multiplier: calc(2175/250);
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  :root {
+    --screen-multiplier: calc(2200/250);
+  }
+}
+
+@media only screen and (min-width: 2225px) {
+  :root {
+    --screen-multiplier: calc(2225/250);
+  }
+}
+
+@media only screen and (min-width: 2250px) {
+  :root {
+    --screen-multiplier: calc(2250/250);
+  }
+}
+
+@media only screen and (min-width: 2275px) {
+  :root {
+    --screen-multiplier: calc(2275/250);
+  }
+}
+
+@media only screen and (min-width: 2300px) {
+  :root {
+    --screen-multiplier: calc(2300/250);
+  }
+}
+
+@media only screen and (min-width: 2325px) {
+  :root {
+    --screen-multiplier: calc(2325/250);
+  }
+}
+
+@media only screen and (min-width: 2350px) {
+  :root {
+    --screen-multiplier: calc(2350/250);
+  }
+}
+
+@media only screen and (min-width: 2375px) {
+  :root {
+    --screen-multiplier: calc(2375/250);
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  :root {
+    --screen-multiplier: calc(2400/250);
+  }
+}
+
+@media only screen and (min-width: 2425px) {
+  :root {
+    --screen-multiplier: calc(2425/250);
+  }
+}
+
+@media only screen and (min-width: 2450px) {
+  :root {
+    --screen-multiplier: calc(2450/250);
+  }
+}
+
+@media only screen and (min-width: 2475px) {
+  :root {
+    --screen-multiplier: calc(2475/250);
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  :root {
+    --screen-multiplier: calc(2500/250);
+  }
+}
+
+@media only screen and (min-width: 2525px) {
+  :root {
+    --screen-multiplier: calc(2525/250);
+  }
+}
+
+@media only screen and (min-width: 2550px) {
+  :root {
+    --screen-multiplier: calc(2550/250);
+  }
+}
+
+@media only screen and (min-width: 2575px) {
+  :root {
+    --screen-multiplier: calc(2575/250);
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  :root {
+    --screen-multiplier: calc(2600/250);
+  }
+}
+
+@media only screen and (min-width: 2625px) {
+  :root {
+    --screen-multiplier: calc(2625/250);
+  }
+}
+
+@media only screen and (min-width: 2650px) {
+  :root {
+    --screen-multiplier: calc(2650/250);
+  }
+}
+
+@media only screen and (min-width: 2675px) {
+  :root {
+    --screen-multiplier: calc(2675/250);
+  }
+}
+
+@media only screen and (min-width: 2700px) {
+  :root {
+    --screen-multiplier: calc(2700/250);
+  }
+}
+
+@media only screen and (min-width: 2725px) {
+  :root {
+    --screen-multiplier: calc(2725/250);
+  }
+}
+
+@media only screen and (min-width: 2750px) {
+  :root {
+    --screen-multiplier: calc(2750/250);
+  }
+}
+
+@media only screen and (min-width: 2775px) {
+  :root {
+    --screen-multiplier: calc(2775/250);
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  :root {
+    --screen-multiplier: calc(2800/250);
+  }
+}
+
+@media only screen and (min-width: 2825px) {
+  :root {
+    --screen-multiplier: calc(2825/250);
+  }
+}
+
+@media only screen and (min-width: 2850px) {
+  :root {
+    --screen-multiplier: calc(2850/250);
+  }
+}
+
+@media only screen and (min-width: 2875px) {
+  :root {
+    --screen-multiplier: calc(2875/250);
+  }
+}
+
+@media only screen and (min-width: 2900px) {
+  :root {
+    --screen-multiplier: calc(2900/250);
+  }
+}
+
+@media only screen and (min-width: 2925px) {
+  :root {
+    --screen-multiplier: calc(2925/250);
+  }
+}
+
+@media only screen and (min-width: 2950px) {
+  :root {
+    --screen-multiplier: calc(2950/250);
+  }
+}
+
+@media only screen and (min-width: 2975px) {
+  :root {
+    --screen-multiplier: calc(2975/250);
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  :root {
+    --screen-multiplier: calc(3000/250);
+  }
+}
+
+@media only screen and (min-width: 3025px) {
+  :root {
+    --screen-multiplier: calc(3025/250);
+  }
+}
+
+@media only screen and (min-width: 3050px) {
+  :root {
+    --screen-multiplier: calc(3050/250);
+  }
+}
+
+@media only screen and (min-width: 3075px) {
+  :root {
+    --screen-multiplier: calc(3075/250);
+  }
+}
+
+@media only screen and (min-width: 3100px) {
+  :root {
+    --screen-multiplier: calc(3100/250);
+  }
+}
+
+@media only screen and (min-width: 3125px) {
+  :root {
+    --screen-multiplier: calc(3125/250);
+  }
+}
+
+@media only screen and (min-width: 3150px) {
+  :root {
+    --screen-multiplier: calc(3150/250);
+  }
+}
+
+@media only screen and (min-width: 3175px) {
+  :root {
+    --screen-multiplier: calc(3175/250);
+  }
+}
+
+@media only screen and (min-width: 3200px) {
+  :root {
+    --screen-multiplier: calc(3200/250);
+  }
+}
+
+@media only screen and (min-width: 3225px) {
+  :root {
+    --screen-multiplier: calc(3225/250);
+  }
+}
+
+@media only screen and (min-width: 3250px) {
+  :root {
+    --screen-multiplier: calc(3250/250);
+  }
+}
+
+@media only screen and (min-width: 3275px) {
+  :root {
+    --screen-multiplier: calc(3275/250);
+  }
+}
+
+@media only screen and (min-width: 3300px) {
+  :root {
+    --screen-multiplier: calc(3300/250);
+  }
+}
+
+@media only screen and (min-width: 3325px) {
+  :root {
+    --screen-multiplier: calc(3325/250);
+  }
+}
+
+@media only screen and (min-width: 3350px) {
+  :root {
+    --screen-multiplier: calc(3350/250);
+  }
+}
+
+@media only screen and (min-width: 3375px) {
+  :root {
+    --screen-multiplier: calc(3375/250);
+  }
+}
+
+@media only screen and (min-width: 3400px) {
+  :root {
+    --screen-multiplier: calc(3400/250);
+  }
+}
+
+@media only screen and (min-width: 3425px) {
+  :root {
+    --screen-multiplier: calc(3425/250);
+  }
+}
+
+@media only screen and (min-width: 3450px) {
+  :root {
+    --screen-multiplier: calc(3450/250);
+  }
+}
+
+@media only screen and (min-width: 3475px) {
+  :root {
+    --screen-multiplier: calc(3475/250);
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  :root {
+    --screen-multiplier: calc(3500/250);
+  }
+}
+
+@media only screen and (min-width: 3525px) {
+  :root {
+    --screen-multiplier: calc(3525/250);
+  }
+}
+
+@media only screen and (min-width: 3550px) {
+  :root {
+    --screen-multiplier: calc(3550/250);
+  }
+}
+
+@media only screen and (min-width: 3575px) {
+  :root {
+    --screen-multiplier: calc(3575/250);
+  }
+}
+
+@media only screen and (min-width: 3600px) {
+  :root {
+    --screen-multiplier: calc(3600/250);
+  }
+}
+
+@media only screen and (min-width: 3625px) {
+  :root {
+    --screen-multiplier: calc(3625/250);
+  }
+}
+
+@media only screen and (min-width: 3650px) {
+  :root {
+    --screen-multiplier: calc(3650/250);
+  }
+}
+
+@media only screen and (min-width: 3675px) {
+  :root {
+    --screen-multiplier: calc(3675/250);
+  }
+}
+
+@media only screen and (min-width: 3700px) {
+  :root {
+    --screen-multiplier: calc(3700/250);
+  }
+}
+
+@media only screen and (min-width: 3725px) {
+  :root {
+    --screen-multiplier: calc(3725/250);
+  }
+}
+
+@media only screen and (min-width: 3750px) {
+  :root {
+    --screen-multiplier: calc(3750/250);
+  }
+}
+
+@media only screen and (min-width: 3775px) {
+  :root {
+    --screen-multiplier: calc(3775/250);
+  }
+}
+
+@media only screen and (min-width: 3800px) {
+  :root {
+    --screen-multiplier: calc(3800/250);
+  }
+}
+
+@media only screen and (min-width: 3825px) {
+  :root {
+    --screen-multiplier: calc(3825/250);
+  }
+}
+
+@media only screen and (min-width: 3850px) {
+  :root {
+    --screen-multiplier: calc(3850/250);
+  }
+}
+
+@media only screen and (min-width: 3875px) {
+  :root {
+    --screen-multiplier: calc(3875/250);
+  }
+}
+
+@media only screen and (min-width: 3900px) {
+  :root {
+    --screen-multiplier: calc(3900/250);
+  }
+}
+
+@media only screen and (min-width: 3925px) {
+  :root {
+    --screen-multiplier: calc(3925/250);
+  }
+}
+
+@media only screen and (min-width: 3950px) {
+  :root {
+    --screen-multiplier: calc(3950/250);
+  }
+}
+
+@media only screen and (min-width: 3975px) {
+  :root {
+    --screen-multiplier: calc(3975/250);
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  :root {
+    --screen-multiplier: calc(4000/250);
+  }
+}
+
+
+/* Screen multiplier floor values to be used when a whole number is required */
+
+@media only screen and (min-width: 500px) {
+  :root {
+    --screen-multiplier-floor: 2;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  :root {
+    --screen-multiplier-floor: 3;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  :root {
+    --screen-multiplier-floor: 4;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  :root {
+    --screen-multiplier-floor: 5;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  :root {
+    --screen-multiplier-floor: 6;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  :root {
+    --screen-multiplier-floor: 7;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  :root {
+    --screen-multiplier-floor: 8;
+  }
+}
+
+@media only screen and (min-width: 2250px) {
+  :root {
+    --screen-multiplier-floor: 9;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  :root {
+    --screen-multiplier-floor: 10;
+  }
+}
+
+@media only screen and (min-width: 2750px) {
+  :root {
+    --screen-multiplier-floor: 11;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  :root {
+    --screen-multiplier-floor: calc(3000/250);
+  }
+}
+
+@media only screen and (min-width: 3250px) {
+  :root {
+    --screen-multiplier-floor: calc(3250/250);
+  }
+}
+
+@media only screen and (min-width: 3500px) {
+  :root {
+    --screen-multiplier-floor: calc(3500/250);
+  }
+}
+
+@media only screen and (min-width: 3750px) {
+  :root {
+    --screen-multiplier-floor: calc(3750/250);
+  }
+}
+
+@media only screen and (min-width: 4000px) {
+  :root {
+    --screen-multiplier-floor: calc(4000/250);
+  }
+}
